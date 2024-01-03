@@ -75,5 +75,6 @@ public class IndexControlador {
 
         //Actualizamos la tabla
         PrimeFaces.current().ajax().update("forma-cuentas:mensajes", "forma-cuentas:cuentas-tabla");
+        
     }
 }
